@@ -1,5 +1,9 @@
 # Pinia, curso de entrenamiento
-![Course Feature Image](https://vueschool.io/media/bc6229f7525d1df7f87bd22604eaa468/Pinia_not-transparent.png)
+
+<div style="text-align:center;">
+  <img src="https://raw.githubusercontent.com/rivalcoba/pinia-trainning/main/public/images/Pinia-banner.jpg" width="80%" alt="Image" />
+</div>
+
 
 ## Boilerplate Code
 Proyecto base para el entrenamiento de Pinia para VUE.JS
