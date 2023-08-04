@@ -1,16 +1,17 @@
-# Pinia, The Enjoyable Vue Store 
-## Boilerplate Code
-
+# Pinia, curso de entrenamiento
 ![Course Feature Image](https://vueschool.io/media/bc6229f7525d1df7f87bd22604eaa468/Pinia_not-transparent.png)
 
-## How to Use
+## Boilerplate Code
+Proyecto base para el entrenamiento de Pinia para VUE.JS
 
-```
-npx degit  vueschool/pinia-course-boilerplate 
-```
-```
+## Como usarse
+Ejecutar los siguientes comandos en un entorno CLI que soporte Node en su versión LTS.
+
+```javascript
 npm install
 npm run dev
 ```
 
-[Checkout the course!](https://vueschool.io/courses/pinia-the-enjoyable-vue-store)
+## Créditos
+El código fuente de este proyecto fue creado por el equipo de Vueschool.io para el curso.
+[Pinia the enjoyable vue store](https://vueschool.io/courses/pinia-the-enjoyable-vue-store)
