@@ -5,6 +5,8 @@ import ProductCard from "@/components/ProductCard.vue";
 import { useProductStore } from './stores/ProductStore';
 // Se pone en acción el store llamado la función
 const productStore = useProductStore();
+// Invocando al action "fill" del Store
+productStore.fill();
 
 </script>
 
