@@ -11,14 +11,6 @@ productStore.fill();
 // Importando Store Cart
 import { useCartStore } from './stores/CartStore';
 const cartStore = useCartStore();
-
-const addToCart = (count, product) => {
-  count = parseInt(count);
-  for (let index = 0; index < count; index++){
-    cartStore.items.push(product);
-  }
-};
-
 </script>
 
 <template>
@@ -29,7 +21,7 @@ const addToCart = (count, product) => {
         v-for="product in productStore.products"
         :key="product.name"
         :product="product"
-        @addToCart="addToCart($event, product)"
+        @addToCart="cartStore.addItems($event, product)"
       />
     </ul>
   </div>
