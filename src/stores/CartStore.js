@@ -13,7 +13,7 @@ export const useCartStore = defineStore('CartStore', {
       count = parseInt(count);
       // Agregando Item a Items
       for (let index = 0; index < count; index++){
-        this.items.push(item);
+        this.items.push({...item});
       }
     },
   }
